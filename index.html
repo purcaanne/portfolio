@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANNE PURCA | Student Portfolio</title>
+  <meta name="description" content="Portfolio of ANNE PURCA: skills and class projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home">ANNE PURCA</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <p class="kicker">Hi, I'm</p>
+      <h1>ANNE PURCA</h1>
+      <p class="lead">I'm a fourth-year BS Information Technology student getting ready to start my career in IT. I'm building my skills through class projects, and I'm looking for chances to learn and grow.</p>
+      <div class="actions">
+        <a class="btn" href="#projects">See my projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <div class="two-col">
+        <div class="photo"><img src="images/profile.jpg" alt="Photo of Anne Purca"></div>
+        <div class="prose">
+          <p>I'm a fourth-year BS Information Technology student at Cebu Eastern College. I became interested in IT because [one real reason].</p>
+          <p>[Your interests outside class that connect to your work.]</p>
+          <p>[What you want to learn next.]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <p class="note">Tools and languages I have used in my BSIT classes.</p>
+      <ul class="skills">
+        <li><strong>Programming</strong>
+          <ul class="chips"><li>Python</li><li>Java</li><li>C</li><li>C++</li><li>C#</li><li>PHP</li><li>JavaScript</li></ul></li>
+        <li><strong>Web</strong>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>WordPress</li><li>Bootstrap</li></ul></li>
+        <li><strong>Design</strong>
+          <ul class="chips"><li>Canva</li><li>Figma</li><li>Photoshop</li></ul></li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="note">Use your own classwork or practice projects only.</p>
+      <div class="projects">
+        <article class="project">
+          <div class="shot" role="img" aria-label="Placeholder screenshot"><span>Screenshot<br>images/project1.png</span></div>
+          <h3>[Project 1 title]</h3>
+          <p>[What the project is and what it does, in 1–2 sentences.]</p>
+          <p><strong>My contribution:</strong> [What you personally did.]</p>
+          <a href="#" class="link">View project</a>
+        </article>
+        <article class="project">
+          <div class="shot" role="img" aria-label="Placeholder screenshot"><span>Screenshot<br>images/project2.png</span></div>
+          <h3>[Project 2 title]</h3>
+          <p>[What the project is and what it does, in 1–2 sentences.]</p>
+          <p><strong>My contribution:</strong> [What you personally did.]</p>
+          <a href="#" class="link">View project</a>
+        </article>
+        <article class="project">
+          <div class="shot" role="img" aria-label="Placeholder screenshot"><span>Screenshot<br>images/project3.png</span></div>
+          <h3>[Project 3 title]</h3>
+          <p>[What the project is and what it does, in 1–2 sentences.]</p>
+          <p><strong>My contribution:</strong> [What you personally did.]</p>
+          <a href="#" class="link">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Want to work together or ask about a project? Email me.</p>
+      <a class="btn" href="mailto:purcaanne299@gmail.com">purcaanne299@gmail.com</a>
+      <ul class="links">
+        <li><a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">LinkedIn</a></li>
+        <!-- Optional resume: <li><a href="assets/resume.pdf" download>Download resume</a></li> -->
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> ANNE PURCA. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
